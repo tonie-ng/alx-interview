@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""reads stdin line by line and computes metrics:"""
 import sys
 
 
@@ -14,6 +14,7 @@ def print_msg(dict_sc, total_file_size):
 
 
 def main():
+    "main function"
     total_file_size = 0
     counter = 0
     dict_sc = {
